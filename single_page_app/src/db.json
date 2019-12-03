@@ -5,24 +5,48 @@
       "name": "Flask",
       "description": "Introduction to web programming with a little Flask web-server. Flask is a web micro-framework for Python, helping to handle HTTP requests on different uri-routes.",
 
-      "img_url": "https://github.com/dsc-ucu-lviv/w_flask/blob/master/flask-insta_poster.jpg?raw=true",
+      "img_url": "https://scontent-amt2-1.cdninstagram.com/v/t51.2885-15/e35/s240x240/73414148_1672514089552244_2651286032518707479_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_cat=108&oh=e65eeb3c8c4adf8fb4cf50605ed13038&oe=5E7AABAC",
       "img_alt": "Poster: a Flask logo among colorful puzzle pieces.",
 
       "prep_doc_url": "https://docs.google.com/document/d/1va6LQ2vnv6rdPDWeDhDKQwhjwxr6h9OYAMnlWBhhySU/edit?usp=sharing",
-      "code_git_url": "https://github.com/romanjoe/os-course-labs",
+      "code_url": "https://github.com/dsc-ucu-lviv/w_flask",
       "slides_url": "https://docs.google.com/presentation/d/1eLdm8w1HcvRS4nohnuQf5ekqP_Ikmq2sXFqddEhcSOY/edit?usp=sharing"
     },
     {
       "id": 2,
+      "name": "Git",
+      "description": "It is the most popular version control tool, helping developers collaborate. IT world uses it every day for coursework, projects, startups and hackathons.",
+
+      "img_url": "https://scontent-amt2-1.cdninstagram.com/v/t51.2885-15/e35/s480x480/75306168_514071629373731_7153343214185808377_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_cat=111&oh=d452bf0b997b87d9cc3c62423ec4d61b&oe=5E850C2C",
+      "img_alt": "Poster: logo of Git with the event info written like git commands.",
+
+      "prep_doc_url": "https://docs.google.com/document/d/1ukM1bde88GoJS-ezDtO0uUXF_pjNqd0zB1EHETUr59g/edit?usp=sharing",
+      "code_url": "",
+      "slides_url": "https://docs.google.com/presentation/d/1xS6VnvIZtRdDcIY__rGULVPNOW3SZklIBu99PJbyCpA/edit?usp=sharing"
+    },
+    {
+      "id": 3,
       "name": "Firebase",
       "description": "Would you like to learn how to design database architecture? If so, our next workshop is for you!\uD83D\uDE0E This time we will learn how to store data in Firebase - a platform that gives you functionality like analytics, databases, messaging and crash reporting so you can move quickly and focus on your users.",
 
-      "img_url": "https://github.com/dsc-ucu-lviv/dsc_workshop_materials/blob/master/single_page_app/src/img/posters/firebase_poster.jpg?raw=true",
+      "img_url": "https://scontent-amt2-1.cdninstagram.com/v/t51.2885-15/e35/s480x480/71905708_460410957907606_7170118727803567439_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_cat=110&oh=f121862a7bf15c82f720221cd22542b8&oe=5E89ABC4",
       "img_alt": "Poster: logo of Firebase as fire inside light lantern.",
 
       "prep_doc_url": "https://docs.google.com/document/d/1aUB5A1Ddj3fOWUGjx8gpmMSKvg6xv1gdk3UndRK4VyA/edit?usp=sharing",
-      "code_git_url": "https://github.com/romanjoe/os-course-labs",
+      "code_url": "https://codelabs.developers.google.com/codelabs/firebase-get-to-know-web",
       "slides_url": "https://docs.google.com/presentation/d/18PnCTjZMa5xmRvFpb67QtuDGNjPnSgkv8yQvMUm0ZfQ/edit?usp=sharing"
+    },
+    {
+      "id": 4,
+      "name": "Flutter",
+      "description": "Flutter is Google's mobile SDK for crafting high-quality native interfaces on iOS and Android\uD83D\uDCF1 in record time. Flutter works with existing code, is used by developers and organisations around the world, and is free and open source.",
+
+      "img_url": "https://scontent-amt2-1.cdninstagram.com/v/t51.2885-15/e35/s320x320/72727436_2376826505892435_2139088803807242113_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_cat=103&oh=db50b606175f301db9e93ae25badb7d3&oe=5E687181",
+      "img_alt": "Poster: logo of Firebase as fire inside light lantern.",
+
+      "prep_doc_url": null,
+      "code_url": "https://codelabs.developers.google.com/codelabs/first-flutter-app-pt1/#0",
+      "slides_url": "https://docs.google.com/presentation/d/1Ueeyi2QYKHJuIfgWESHr5ojRe6sOCa-_Qk8na2XgKbg/edit?usp=sharing"
     }
   ]
 }

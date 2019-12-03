@@ -8,8 +8,9 @@ class Presentation extends React.Component {
 
     constructor(props) {
         super(props);
-        this.state = null;
-        this.fetchData(this.props.id);
+        this.state = {
+            presentation_data: this.props.content
+        }
     }
 
     fetchData = async (id) => {
@@ -24,7 +25,9 @@ class Presentation extends React.Component {
     render() {
         if (this.state === null) {return  (<p> ... </p>)}
 
-        let presentation_data = this.state.presentation.materials;
+        let presentation_data = this.state.presentation_data;
+        console.log("..", presentation_data);
+
         return (
             <div className="materials_set__presentation">
                 <img className="materials_set__presentation__img"
@@ -45,12 +48,17 @@ class Presentation extends React.Component {
                     }
 
                     <div className="actionBar">
-                        <a href={presentation_data.prep_doc_url}>
-                            <button className={"preparation"}> Prep </button> </a>
-                        <a href={presentation_data.slides_url}>
-                            <button className={"slides"}> Slides</button> </a>
-                        <a href={presentation_data.code_git_url}>
-                            <button className={"code"}> Code</button> </a>
+                        { presentation_data.prep_doc_url
+                            ? <a href={presentation_data.prep_doc_url}> <button className={"preparation"}> Prep </button> </a> : null
+                        }
+
+                        { presentation_data.slides_url
+                            ? <a href={presentation_data.slides_url}> <button className={"slides"}> Slides </button> </a> : null
+                        }
+
+                        { presentation_data.code_url
+                            ? <a href={presentation_data.code_url}> <button className={"code"}> Code </button> </a> : null
+                        }
                     </div>
 
                 </div>
