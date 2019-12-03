@@ -1,0 +1,30 @@
+.main_shelf {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main_shelf > * {
+    margin: 1rem;
+}
+
+body * {
+    font-family: inherit;
+    font-weight: lighter;
+}
+
+header {
+    text-align: center;
+}
+
+header > h2 {
+    margin-bottom: 0.5rem;
+}
+header > h4 {
+    margin-top: 1rem;
+}
+
+/*background-image: url("https://images.pexels.com/photos/673648/pexels-photo-673648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");*/
+/*background-image: url("https://images.unsplash.com/photo-1487147264018-f937fba0c817?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80");*/
+/*background-image: url("https://unsplash.com/photos/vC8wj_Kphak");*/
+/*background-image: url("https://images.pexels.com/photos/673648/pexels-photo-673648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");*/
