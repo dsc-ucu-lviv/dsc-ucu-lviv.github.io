@@ -18,6 +18,9 @@ class MaterialSet extends React.Component {
                 <div className="main_shelf">
                     <Presentation id={1}/>
                     <Presentation id={2}/>
+                    <Presentation id={2}/>
+                    <Presentation id={2}/>
+                    <Presentation id={2}/>
                 </div>
             </main>
         );

@@ -1,7 +1,8 @@
 .main_shelf {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    width: 95%;
+    margin: auto;
 }
 
 .main_shelf > * {

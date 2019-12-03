@@ -1,6 +1,4 @@
 import React from "react";
-// import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-
 import '../styles/shelf.css'
 import '../styles/materials_set__presentation.css'
 
@@ -20,17 +18,11 @@ class Presentation extends React.Component {
     };
 
     shouldComponentUpdate(nextProps, nextState, nextContext) {
-        console.log(nextState);
         return nextState !== null;
     }
 
-    // expand_text () {
-    //     if ()
-    // }
-
     render() {
-
-        if (this.state === null) {return  (<p>... </p>)}
+        if (this.state === null) {return  (<p> ... </p>)}
 
         let presentation_data = this.state.presentation.materials;
         return (
