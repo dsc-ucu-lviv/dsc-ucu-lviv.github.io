@@ -48,7 +48,7 @@ class Presentation extends React.Component {
                             onClick={() => this.setState({textFull: false})}> ▲ </button>
                         :
                         <button className={"text_expander"}
-                                onClick={() => this.setState({textFull: true})}> ▼ </button>
+                                onClick={() => this.setState({textFull: true})}> ••• </button>
                     }
 
                     <div className="actionBar">
