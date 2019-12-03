@@ -24,3 +24,5 @@ export const
 
 // npm install -g json-server
 // json-server --watch src/db.json --port 3001
+
+// "img_url": "https://github.com/dsc-ucu-lviv/w_flask/blob/master/flask-insta_poster.jpg?raw=true",

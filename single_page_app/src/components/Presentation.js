@@ -27,7 +27,8 @@ class Presentation extends React.Component {
         let presentation_data = this.state.presentation.materials;
         return (
             <div className="materials_set__presentation">
-                <img className="materials_set__presentation__img" src={presentation_data.img_url}
+                <img className="materials_set__presentation__img"
+                     src={presentation_data.img_url}
                      alt={presentation_data.img_alt}/>
 
                 <div className={"materials_set__presentation__content"}>

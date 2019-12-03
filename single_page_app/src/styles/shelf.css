@@ -1,6 +1,6 @@
 .main_shelf {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: auto fit-content(800px) auto;
     justify-content: center;
 }
 
