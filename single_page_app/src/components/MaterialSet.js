@@ -11,16 +11,13 @@ class MaterialSet extends React.Component {
         return (
             <main>
                 <header>
-                    <h2> Developer Student Club </h2>
+                    <h2> Developer Student Club @ UCU</h2>
                     <h4>materials</h4>
                 </header>
 
                 <div className="main_shelf">
                     <Presentation id={1}/>
-                    <Presentation id={1}/>
-                    <Presentation id={1}/>
-                    <Presentation id={1}/>
-                    <Presentation id={1}/>
+                    <Presentation id={2}/>
                 </div>
             </main>
         );

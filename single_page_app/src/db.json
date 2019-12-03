@@ -1,0 +1,28 @@
+{
+  "materials": [
+    {
+      "id": 1,
+      "name": "Flask",
+      "description": "Introduction to web programming with a little Flask web-server. Flask is a web micro-framework for Python, helping to handle HTTP requests on different uri-routes.",
+
+      "img_url": "https://github.com/dsc-ucu-lviv/w_flask/blob/master/flask-insta_poster.jpg?raw=true",
+      "img_alt": "Poster: a Flask logo among colorful puzzle pieces.",
+
+      "prep_doc_url": "https://docs.google.com/document/d/1va6LQ2vnv6rdPDWeDhDKQwhjwxr6h9OYAMnlWBhhySU/edit?usp=sharing",
+      "code_git_url": "https://github.com/romanjoe/os-course-labs",
+      "slides_url": "https://docs.google.com/presentation/d/1eLdm8w1HcvRS4nohnuQf5ekqP_Ikmq2sXFqddEhcSOY/edit?usp=sharing"
+    },
+    {
+      "id": 2,
+      "name": "Firebase",
+      "description": "Would you like to learn how to design database architecture? If so, our next workshop is for you!\uD83D\uDE0E This time we will learn how to store data in Firebase - a platform that gives you functionality like analytics, databases, messaging and crash reporting so you can move quickly and focus on your users.",
+
+      "img_url": "https://github.com/dsc-ucu-lviv/w_flask/blob/master/flask-insta_poster.jpg?raw=true",
+      "img_alt": "Poster: logo of Firebase as fire inside light lantern.",
+
+      "prep_doc_url": "https://docs.google.com/document/d/1aUB5A1Ddj3fOWUGjx8gpmMSKvg6xv1gdk3UndRK4VyA/edit?usp=sharing",
+      "code_git_url": "https://github.com/romanjoe/os-course-labs",
+      "slides_url": "https://docs.google.com/presentation/d/18PnCTjZMa5xmRvFpb67QtuDGNjPnSgkv8yQvMUm0ZfQ/edit?usp=sharing"
+    }
+  ]
+}
