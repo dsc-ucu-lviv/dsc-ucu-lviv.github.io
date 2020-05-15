@@ -18,6 +18,7 @@ header > h2 {
 header > h3 {
     margin-top: 0.5rem;
     margin-bottom: 2.5rem;
+    color: #227093;
 }
 
 main.material_card {
@@ -26,7 +27,8 @@ main.material_card {
 
 li.card_list__materials_card {
     max-width: 20rem;
-    margin-bottom: 2rem;
+    flex: 1 1 20%;
+    margin: 2rem 2rem;
 }
 
 li.card_list__materials_card > img.poster {
@@ -45,7 +47,7 @@ ul.card_list {
 }
 
 
-li.card_list__materials_card > p {
+li.card_list__materials_card > p.card_list__materials_card__description_text {
     max-width: 20rem;
     height: 2.75rem;
     color: darkslategrey;
@@ -55,28 +57,41 @@ li.card_list__materials_card > p {
     overflow: hidden;
 }
 
-li.card_list__materials_card > p:hover {
+li.card_list__materials_card > p.card_list__materials_card__description_text:active {
     height: auto;
+    animation-name: slideOutLeft;
 }
 
 div.link_bar {
-    padding-top: 0.75rem;
+    padding-top: 1rem;
     display: flex;
     max-width: 20rem;
-    justify-content: space-evenly;
 }
 
 div.link_bar > a {
     padding: 0.5rem;
     border-radius: 5%;
-    background-color: darkseagreen;
+    background-color: #34ace0;
     color: white;
     width: 3.5rem;
     text-align: center;
+    flex: 1;
+}
+
+div.link_bar > a.prep {
+    background-color: #0F9D58;
+}
+
+div.link_bar > a.slides {
+    background-color: #F4B400;
+}
+
+div.link_bar > a.code {
+    background-color: #4285F4;
 }
 
 div.link_bar > a:hover {
-    background-color: forestgreen;
+    background-color: #227093;
 }
 
 
