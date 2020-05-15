@@ -1,9 +1,0 @@
-.main_shelf {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.main_shelf > * {
-    margin: 1rem;
-}
